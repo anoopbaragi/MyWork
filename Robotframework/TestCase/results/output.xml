@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20230305 18:15:56.435" rpa="false" schemaversion="3">
+<suite id="s1" name="TestCase" source="C:\Users\HP\OneDrive\Desktop\Final git\Robotframework\Robotframework\TestCase">
+<suite id="s1-s1" name="Assignement" source="C:\Users\HP\OneDrive\Desktop\Final git\Robotframework\Robotframework\TestCase\assignement.robot">
+<test id="s1-s1-t1" name="flight" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230305 18:15:59.802" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/dropdownsPractise/'.</msg>
+<msg timestamp="20230305 18:16:05.493" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230305 18:16:05.494" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.178 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00FCF243]
+	(No symbol) [0x00F57FD1]
+	(No symbol) [0x00E4D04D]
+	(No symbol) [0x00E6F6B4]
+	(No symbol) [0x00E6A97C]
+	(No symbol) [0x00E682E9]
+	(No symbol) [0x00E9F056]
+	(No symbol) [0x00E9EB2A]
+	(No symbol) [0x00E98386]
+	(No symbol) [0x00E7163C]
+	(No symbol) [0x00E7269D]
+	GetHandleVerifier [0x01269A22+2655074]
+	GetHandleVerifier [0x0125CA24+2601828]
+	GetHandleVerifier [0x01078C0A+619850]
+	GetHandleVerifier [0x01077830+614768]
+	(No symbol) [0x00F605FC]
+	(No symbol) [0x00F65968]
+	(No symbol) [0x00F65A55]
+	(No symbol) [0x00F7051B]
+	BaseThreadInitThunk [0x756A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77007BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77007B8E+238]
+</msg>
+<status status="FAIL" starttime="20230305 18:15:59.798" endtime="20230305 18:16:05.608"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230305 18:16:05.610" endtime="20230305 18:16:05.610"/>
+</kw>
+<kw name="RHSACC" library="assoperation">
+<status status="NOT RUN" starttime="20230305 18:16:05.611" endtime="20230305 18:16:05.612"/>
+</kw>
+<status status="FAIL" starttime="20230305 18:15:59.767" endtime="20230305 18:16:05.613">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 110.0.5481.178 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00FCF243]
+	(No symbol) [0x00F57FD1]
+	(No symbol) [0x00E4D04D]
+	(No symbol) [0x00E6F6B4]
+	(No symbol) [0x00E6A97C]
+	(No symbol) [0x00E682E9]
+	(No symbol) [0x00E9F056]
+	(No symbol) [0x00E9EB2A]
+	(No symbol) [0x00E98386]
+	(No symbol) [0x00E7163C]
+	(No symbol) [0x00E7269D]
+	GetHandleVerifier [0x01269A22+2655074]
+	GetHandleVerifier [0x0125CA24+2601828]
+	GetHandleVerifier [0x01078C0A+619850]
+	GetHandleVerifier [0x01077830+614768]
+	(No symbol) [0x00F605FC]
+	(No symbol) [0x00F65968]
+	(No symbol) [0x00F65A55]
+	(No symbol) [0x00F7051B]
+	BaseThreadInitThunk [0x756A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77007BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77007B8E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230305 18:15:56.517" endtime="20230305 18:16:05.632"/>
+</suite>
+<status status="FAIL" starttime="20230305 18:15:56.463" endtime="20230305 18:16:05.643"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestCase">TestCase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Assignement">TestCase.Assignement</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
